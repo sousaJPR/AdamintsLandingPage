@@ -6,7 +6,7 @@ import styles, { layout } from "../style";
 const Roadmap = () => {
   const lastItem = roadmapItems.length - 1
   return (
-    <section id='roadmap' className={`relative ${layout.roadmapSection} snap-center`}>
+    <section id='roadmap' className={`relative ${layout.roadmapSection} sm:snap-start`}>
       <h2 className={`${styles.heading2} text-gradient1 text-center`}>Roadmap 2.0</h2>
       <ol className="items-center flex flex-col sm:flex-row w-full py-20" >
         {roadmapItems && roadmapItems.map((item, index) =>

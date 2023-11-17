@@ -5,7 +5,7 @@ import About from './About';
 import Stats from './Stats';
 import Footer from './Footer';
 import Hero from './Hero';
-import FAQ from '../FAQ';
+import FAQ from './FAQ';
 import ScrollFadeInSection from './ScrollFadeInSection';
 
 

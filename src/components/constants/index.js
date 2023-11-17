@@ -66,7 +66,7 @@ export const faqItems = [
 export const roadmapItems = [
   {
     id: "roadmap-1",
-    content: "Adamint v2.0 Launch Landing Page Whitepaper 2.0 ",
+    content: "Adamint v2.0 Launch New Landing Page Whitepaper 2.0 ",
     date: "December 2023",
     title: "Launch: Version 2.0",
   },

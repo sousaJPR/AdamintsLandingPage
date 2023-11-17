@@ -5,7 +5,7 @@ import Stats from './Stats';
 
 const Hero = () => (
   <section id='home' className={`relative flex md:flex-row flex-col snap-start sm:h-screen py-20`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 max-w[800px]`}>
+      <div className={`flex-1 ${styles.flexStart} flex-col  max-w[800px]`}>
         <div>
           <h1 className='flex1 font-poppins font-semibold ss:text-[32px] 
         text-[32px] text-white leading-[50px]'>
@@ -26,7 +26,7 @@ const Hero = () => (
           <img src={logo1080} alt="adamint-logo" className='w-[100%] h-[100%] relative z-[5] ' />
         </div>
       </div>
-      <div className='absolute z-[0] bottom-[200px] right-[50px] w-[40%] h-[35%] rounded-full bg-cyan-800 blur-[100px] pointer-events-none' />
+      <div className='absolute z-[0] bottom-[200px] right-[50px] w-[40%] h-[35%] rounded-full sm:bg-cyan-800 blur-[100px] pointer-events-none' />
   </section>
 )
 

@@ -3,7 +3,7 @@ import { logo } from "../assets";
 import { footerLinks, socialMedia } from './constants';
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} relative z-[1] snap-center flex-col`}>
+  <section className={`${styles.flexCenter} relative z-[1] sm:snap-start flex-col pb-[80px]`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-1 flex flex-col justify-start mr-10">
         <img src={logo}

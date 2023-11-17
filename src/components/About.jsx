@@ -21,7 +21,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () => {
   return (
-    <section id="about" className={`relative ${layout.section} snap-start`}>
+    <section id="about" className={`relative ${layout.section} sm:snap-start`}>
       <div className={`${layout.sectionTextLeft}`}>
         <h2 className={`text-[28px] sm:${styles.heading2} text-gradient1`}>Redefining Cardano:</h2>
         <br className="sm:block" />

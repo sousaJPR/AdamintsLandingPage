@@ -5,6 +5,7 @@ const ScrollFadeInSection = ({ children }) => {
   const sectionRef = useRef(null);
 
   useEffect(() => {
+    const threshold = window.innerWidth < 600 ? 0.2 : 0.8 // Getting diff values to small and larger screens
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsVisible(entry.isIntersecting);
@@ -12,7 +13,7 @@ const ScrollFadeInSection = ({ children }) => {
       {
         root: null,
         rootMargin: '0px',
-        threshold: 0.5,
+        threshold: threshold,
       }
     );
 

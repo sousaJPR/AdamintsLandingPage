@@ -5,7 +5,7 @@ import Slider from './Slider/Slider';
 
 
 const Services = () => (
-    <section id='features' className={`relative ${layout.sectionReverse} snap-start`}>
+    <section id='features' className={`relative ${layout.sectionReverse} sm:snap-start`}>
       <div className={`${layout.sectionImgReverse} h-screen`}>
         <Slider/>
       </div>

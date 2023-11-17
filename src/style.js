@@ -1,5 +1,5 @@
 const styles = {
-    boxWidth: "xl:max-w-[1280px] w-full",
+    boxWidth: "xl:max-w-[1380px] w-full",
   
     heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[46.8px] w-full",
     heading3: "font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[66.8px] leading-[56.8px] w-full",
@@ -9,7 +9,7 @@ const styles = {
   
     flexCenter: "flex justify-center items-center",
     flexRoadmap: "flex flex-column justify-center ",
-    flexStart: "flex justify-center items-start pr-10",
+    flexStart: "flex justify-center items-start md:pr-10",
     flexEnd: "flex justify-center sm:text-right sm:pl-10",
   
     paddingX: "px-16",

@@ -1,6 +1,6 @@
-import styles, { layout } from "./style"
-import { arrowFaq } from './assets/index'
-import { faqItems } from "./components/constants"
+import styles, { layout } from "../style"
+import { arrowFaq } from '../assets/index'
+import { faqItems } from "./constants"
 import { useState } from "react"
 
 const FAQ = () => {
@@ -32,7 +32,7 @@ const FAQ = () => {
   };
 
   return (
-    <section id="faq" className={`relative snap-start ${layout.faq}`}>
+    <section id="faq" className={`relative sm:snap-start ${layout.faq}`}>
       <h2 className={`${styles.heading2} text-gradient1 pb-20 text-center`}>FAQ</h2>
       <div className="flex flex-col h-[35%] max-w-[80%] overflow-y-auto no-scrollbar rounded-lg">
         

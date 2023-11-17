@@ -8,8 +8,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`fixed w-screen flex py-6 justify-between items-center ${styles.paddingX} ${styles.flexCenter} z-[999] bg-primary bg-opacity-25`}>
-      <a href='#home'><img src={logo} className='w-[60px] h-[50px] mr-10' /> </a>
+    <nav className={`fixed w-screen py-3 ss:py-6 px-8 ${styles.flexCenter} z-[999] bg-primary bg-opacity-25`}>
+      <a href='#home'><img src={logo} className='w-[60px] h-[50px] ' /> </a>
       <div className={`flex-1 ${styles.flexStart}  flex-col xl:px-0 sm:px-0 px-6`}>
       <a href='#home'><h1 className='flex-1 text-gradient1 font-poppins font-semibold ss:text-[32px] 
         text-[32px] ss:leading-[32px] leading-[32px]'>ADAMINT</h1></a>

@@ -9,7 +9,7 @@ const App = () => {
     </ScrollFadeInSection>
   );
   return (
-    <div className='bg-primary w-full h-screen overflow-y-scroll no-scrollbar snap-y snap-mandatory'>
+    <div className='bg-primary w-full h-screen overflow-y-scroll no-scrollbar sm:snap-y sm:snap-mandatory'>
       <Navbar />
       <div className={`${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} ${styles.paddingY}`}>
@@ -23,7 +23,7 @@ const App = () => {
       </div>
       {/* Bottom right Light */}
       <a href='#home' >
-        <div className='fixed z-[2] bottom-10 right-5 sm:bottom-10 sm:right-20 bg-black-gradient-2 w-[35px] h-[35px] 
+        <div className='fixed z-[2] bottom-10 right-5 sm:bottom-10 sm:right-10 bg-black-gradient-2 w-[35px] h-[35px] 
         rounded-2xl p-2 shadow-sm shadow-cyan-300/40 hover:-translate-y-0.5 duration-300'>
         <img src={arrowUp}/>
       </div></a>
